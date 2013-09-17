@@ -1,0 +1,109 @@
+/* ADD YOUR STYLES HERE */
+
+.datatable td{
+	padding: 10px 125px 10px 10px;
+	text-align: left;
+}
+
+.datatable td:first-child {
+		padding:10px 75px 10px 10px;
+
+}
+
+.datatable tr {
+	border-top: solid #BBB 1px;
+}
+
+.datatable tr:first-child {
+	border-top: 0px;
+}
+
+.datahead th{
+	font-weight:bold;
+	border-bottom: solid #BBB 1px;
+	padding:0px 10px 10px 10px;
+	
+}
+
+.stats {
+	border-bottom: solid #BBB 1px;
+	border-top: solid #BBB 1px;
+
+}
+
+.stats td {
+	padding:20px;
+	text-align:center;
+}
+
+.numeric {
+	font-size: 36px;
+	font-weight: bold;
+	
+}
+
+.description {
+	font-size: 12px;
+	color:#BBB;
+	
+}
+
+.barchart th {
+	text-align: right;
+	font-weight: bold;
+	padding:5px;
+	width:20%;
+}
+
+.barchart td {
+	color:white;
+	padding-left: 5px;
+	width:100%;
+}
+
+.barchart div {
+	background-color:#7BC7ED;
+	padding:5px;
+	border-radius:5px;
+
+}
+
+.lightboxbg {
+	background-color: #444;
+	padding:125px 135px 125px 110px;
+	
+}
+
+.lightboxcontent {
+	background-color: white;
+	padding:20px 20px 20px 20px;
+	border-radius: 6px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 98%;
+}
+
+.button {
+	background-color:#ED7B87;
+	color:white;
+	padding:10px;
+	border-radius:8px;
+	text-align:center;
+	margin-left:75%;
+}
+
+img {
+	float:left;
+	padding:0px 10px 0px 0px;
+}
+
+.text {
+	overflow:none;
+	margin-left:60px;
+
+}
+
+.nested {
+	overflow:none;
+	margin-left:42px;
+}
