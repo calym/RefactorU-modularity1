@@ -68,10 +68,19 @@
 
 }
 
+/*
+    For making this a full-screen modal, you want
+    to make use of the position: fixed. You can also
+    use rgba(r,g,b,a) to set a semitransparent background
+    - Chris
+*/
 .lightboxbg {
-	background-color: #444;
-	padding:125px 135px 125px 110px;
-	
+	background-color: rgba(0,0,0,0.7);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .lightboxcontent {
@@ -80,7 +89,9 @@
 	border-radius: 6px;
 	margin-right: auto;
 	margin-left: auto;
-	width: 98%;
+	/* force a width and set it away from the top */
+	width: 500px;
+	margin-top: 100px;
 }
 
 .button {
